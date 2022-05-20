@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Fisher House</string>
+    <string name="Username_Header">Username:</string>
+    <string name="Username_Hint">username</string>
+    <string name="Password_Header">Password:</string>
+    <string name="Password_Hint">password</string>
+    <string name="Button_Login">Login!</string>
+    <string name="product_name">Working...</string>
+    <string name="Product_name_header">Product Name</string>
+    <string name="quantity">Quantity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="selectExpDate">Select Expiration Date</string>
+    <string name="choose_string_welcome">Welcome!</string>
+    <string name="title_activity_exit_choose">ExitChooseActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

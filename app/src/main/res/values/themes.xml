@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FisherHouse" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <!-- Customize your theme here. -->
+        <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>
+
+    </style>
+
+    <style name="MyDatePickerStyle" parent="android:Widget.Material.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+
+    <style name="ToggleButton" parent="android:Widget.Button.Toggle">
+        <item name="android:colorControlNormal">@color/green</item>
+        <item name="android:colorControlActivated">@color/red</item>
+    </style>
+
+    <style name="Theme.FisherHouse.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FisherHouse.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FisherHouse.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>
